@@ -1,0 +1,14 @@
+.tablebodyWidth {
+  min-width: 160px;
+}
+
+.tablebodyWidthfy {
+  min-width: 120px;
+}
+
+.tableSchroll {
+  overflow-x: auto;
+  margin: 0 auto;
+  scrollbar-width: thin;
+  width: 100%
+}

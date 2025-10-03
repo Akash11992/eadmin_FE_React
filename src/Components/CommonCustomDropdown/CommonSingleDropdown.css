@@ -1,0 +1,17 @@
+.p-dropdown-items {
+  padding: 0px;
+  margin: 0px;
+}
+.p-dropdown-header {
+  padding: 0px;
+}
+.p-dropdown {
+  height: 42px !important;
+}
+.p-dropdown-label {
+  padding: 8px !important;
+}
+
+.selected-value .p-dropdown-label {
+  color: black !important;
+}

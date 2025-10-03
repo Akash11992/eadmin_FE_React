@@ -1,0 +1,23 @@
+
+.custom-card {
+  height: 100%;
+  border-radius: 15px; /* Adjust this value to your preference */
+}
+
+.chart-container {
+  height: 400px; /* Adjust height as needed */
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.chart-center {
+  width: 100%; /* Ensure chart is centered within container */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+

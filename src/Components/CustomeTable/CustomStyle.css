@@ -1,0 +1,56 @@
+.custom-select-label {
+  margin: 0 !important;
+}
+
+.clickable-column {
+  cursor: pointer;
+  color: blue;
+  /* text-decoration: underline;  */
+}
+
+.select-dropdown {
+  display: "flex";
+  align-items: center;
+  color: "#000";
+  padding: "8px 12px";
+}
+
+.fixed-action-column {
+  position: sticky;
+  right: 0;
+  /* background: #000;  */
+  z-index: 10;
+}
+
+.dropdown-menu {
+  position: absolute;
+  z-index: 2000;
+  /* Make sure this is higher */
+}
+
+.table-responsive {
+  overflow-x: auto;
+}
+
+.fixed-column {
+  z-index: 1050;
+}
+
+.name {
+  /* overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 150px;
+  display: block; */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 50px;
+}
+
+.name:hover {
+  white-space: normal;
+  overflow: visible;
+  text-overflow: unset;
+}
+

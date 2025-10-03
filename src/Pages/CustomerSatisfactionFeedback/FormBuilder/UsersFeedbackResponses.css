@@ -1,0 +1,25 @@
+/* Apply background color and style to the table header */
+.custom-table thead th {
+    background-color: #f24b3a;
+    color: white;
+    border-right: 1px solid white; /* White vertical line */
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  /* Last header cell should not have a right border */
+  .custom-table thead th:last-child {
+    border-right: none;
+  }
+  
+  /* Apply vertical line between cells in the table body */
+  .custom-table tbody td {
+    border-right: 1px solid #dee2e6; /* Light gray vertical line */
+    text-align: center;
+  }
+  
+  /* Last cell in each row should not have a right border */
+  .custom-table tbody td:last-child {
+    border-right: none;
+  }
+  

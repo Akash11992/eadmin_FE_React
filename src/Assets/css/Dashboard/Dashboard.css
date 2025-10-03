@@ -1,0 +1,36 @@
+.dashboard {
+  background-color: #fff;
+  box-shadow: 0px 0px 4px 0px #00000040;
+}
+
+@media screen and (max-width: 425px) {
+  #responsive-margin {
+    margin-top: 1rem;
+  }
+}
+
+#list-style {
+  font-size: smaller;
+  border-left: 5px solid;
+  font-weight: 400;
+  border-top: 0;
+  border-bottom: 0;
+  border-right: 0;
+  margin-top: 0.5rem;
+}
+
+#viewLink{
+  color: black;
+  font-weight:400;
+  display: block; /* Ensure the View All link is displayed */
+  margin-top: auto; /* Push it to the bottom of the card */
+}
+#viewLink:hover {
+  color: red;
+}
+
+#card {
+  height: 13rem; /* Set a fixed height for all cards */
+  overflow: hidden; /* Hide overflow content */
+}
+

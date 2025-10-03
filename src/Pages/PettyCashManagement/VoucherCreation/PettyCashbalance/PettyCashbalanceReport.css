@@ -1,0 +1,16 @@
+.highlight-row {
+    background-color: green !important;
+    color: white !important;
+  }
+  .p-datatable {
+    border: 1px solid rgb(213, 209, 209) !important;
+    border-radius: 4px;
+  }
+  
+  .p-datatable th,
+  .p-datatable td {
+    border: 1px solid rgb(213, 209, 209) !important;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  

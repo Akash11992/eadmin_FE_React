@@ -1,0 +1,35 @@
+.remark-container {
+    margin-top: 50px;
+    padding: 30px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+.remark-description {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 30px;
+  }
+
+  .remark-textarea {
+    min-height: 120px;
+    font-size: 16px;
+    padding: 12px;
+    resize: none;
+    border-radius: 4px;
+    border: 1px solid #ced4da;
+  }
+
+  .remark-header {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+
+  .btn-block {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 18px;
+  }

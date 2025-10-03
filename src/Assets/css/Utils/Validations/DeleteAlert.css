@@ -1,0 +1,10 @@
+.custom-popup {
+  width: 20rem;
+  height: 15rem;
+}
+.custom-title {
+  font-size: 1rem; /* Adjust title font size */
+}
+.custom-content {
+  font-size: 0.5rem; /* Adjust content font size */
+}

@@ -1,0 +1,4 @@
+.schroll{
+    display: block;
+    overflow-x: scroll;
+}

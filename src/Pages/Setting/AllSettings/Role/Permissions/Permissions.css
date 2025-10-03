@@ -1,0 +1,7 @@
+table thead {
+  background-color: red;
+}
+table thead tr th {
+  background-color: transparent;
+
+}

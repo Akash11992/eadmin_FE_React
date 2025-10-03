@@ -1,0 +1,19 @@
+
+@media screen and (max-width: 768px) {
+  #schrollTable {
+    display: block;
+    overflow-x: scroll;
+  }
+}
+#label-input {
+  font-weight: bold;
+}
+
+#label-input-date {
+    font-weight: bold;
+  }
+@media screen and   (min-width: 375px)and (max-width: 425px) {
+    #responseive-width {
+        margin-top: 1rem;
+      }
+  }

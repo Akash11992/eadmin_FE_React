@@ -1,0 +1,9 @@
+/* CSS to control the placeholder alignment */
+.placeholder-right::placeholder {
+    text-align: right;
+  }
+  
+  .placeholder-left::placeholder {
+    text-align: left;
+  }
+  

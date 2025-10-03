@@ -1,0 +1,58 @@
+.react-form-builder {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.react-form-builder .form-builder {
+  width: 60%; 
+} 
+.react-form-builder .react-form-builder-toolbar h4{
+  display: none;
+}
+.react-form-builder .some-list-class {
+  width: 40%; 
+  margin-left: 20px; 
+} 
+
+.react-form-builder.clearfix {
+  display: flex !important;
+  flex-wrap: wrap;
+}
+
+.react-form-builder.clearfix > div {
+  flex: 1;
+  display: flex; 
+  flex-wrap: wrap;
+}
+
+.react-form-builder.clearfix .react-form-builder-toolbar {
+  flex: 1; 
+  margin-left: 20px; 
+}
+
+.react-form-builder.clearfix .col-md-9 {
+  /* flex: 1;  */
+
+  flex: 0 0 70%; 
+}
+
+.react-form-builder.clearfix .col-md-3 {
+  flex: 0 0 25%;
+  margin-top: -5px;
+}
+.react-form-builder .react-form-builder-toolbar{
+  width: 100%;
+    /* margin-top: -30px; */
+}
+.form-builder-container {
+  display: grid;
+  /* grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); */
+  gap: 10px; 
+}
+
+.react-form-builder-preview .form-item {
+  margin: 10px 0; /* Add margin to items */
+}
+
+

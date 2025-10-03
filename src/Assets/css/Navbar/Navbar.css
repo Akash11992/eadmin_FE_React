@@ -1,0 +1,84 @@
+nav {
+  box-shadow: 0px 0px 4px 0px #00000040;
+  background-color: #ffffff;
+  font-size: 18px;
+  font-weight: 450;
+}
+
+nav .profile {
+  font-family: Poppins;
+  letter-spacing: 0.02em;
+  text-align: left;
+  font-weight: 600;
+}
+
+.nav_p {
+  font-family: Poppins;
+  font-size: 16px;
+  line-height: 18px;
+  color: #cacaca;
+  margin: 0;
+  font-weight: bolder;
+}
+.logout_image_navbar{
+  cursor: pointer;
+}
+/* responsive css code here.... */
+
+@media only screen and (max-width: 428px) {
+  .image_toggle {
+    width: 60px !important;
+    margin-left: 5px !important;
+  }
+
+  .image_logo {
+    width: 115px !important;
+    margin-left: 5px !important;
+  }
+  .user_details{
+    display: none !important;
+
+  }
+  .setting_icon{
+    display: none !important;
+  }
+  .logout_image_navbar{
+    display: none !important;
+  }
+}
+
+@media only screen and (min-width: 428px) and (max-width: 768px) {
+  .setting_icon{
+    display: none !important;
+  }
+  #user_info_div{
+    display: none !important;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1180px) {
+  #user_details_info {
+    display: none !important;
+  }
+  #vecent_div{
+    width: 10% !important;
+  }
+  #user_info_div{
+    width: 30% !important;
+  }
+  .setting_icon{
+    display: none !important;
+  }
+  .image_logo{
+    width: 120px !important;
+  }
+  #main_logo_div{
+    width: 30% !important;
+  }
+}
+
+@media only screen and (min-width: 1180px) {
+  #user_details_info {
+    display: none;
+  }
+}

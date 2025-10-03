@@ -1,0 +1,23 @@
+.list-group {
+    background-color: #f1f1f1 !important;
+    border-radius: 0 !important;
+  }
+
+  .list-group-item {
+    background-color: transparent !important;
+    border-radius: 0 !important;
+    border: 1 !important;
+  }
+
+  .active-tab {
+    background-color: #ff9a9a !important;
+    color: black !important;
+  }
+    .content-area {
+    overflow-y: auto;
+  }
+
+  .scrollable-content {
+    max-height: 60vh;
+    overflow-y: auto;
+  }

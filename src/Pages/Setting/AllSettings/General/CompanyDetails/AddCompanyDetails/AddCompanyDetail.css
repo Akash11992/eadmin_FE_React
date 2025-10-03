@@ -1,0 +1,20 @@
+.highlightOption {
+    background-color: #000;
+}
+
+.highlight {
+    background-color: #000;
+}
+
+.chip {
+    background: #000;
+}
+
+.option {
+    color: #000;
+    background-color: transparent;
+}
+.option:hover {
+    background-color: gray !important;
+    color: white !important;
+}

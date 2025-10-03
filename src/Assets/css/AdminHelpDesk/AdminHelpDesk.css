@@ -1,0 +1,33 @@
+#card-radius{
+    border-radius: 25px;
+}
+.height-card{
+    height: 15rem;
+}
+.reply-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .reply-item {
+    margin-bottom: 0.5rem;
+  }
+  
+  .reply-meta {
+    margin: 0.2rem 0;
+  }
+  
+  .reply-content {
+    /* border: 1px solid #ccc; */
+    border-radius: 5px;
+    /* padding: 0.5rem; */
+    background-color: #f9f9f9;
+    word-wrap: break-word;
+  }
+
+  .no-hover:hover {
+    text-decoration: none;
+    color: inherit; 
+    background: white;
+    border: 0;
+  }

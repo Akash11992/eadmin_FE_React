@@ -1,0 +1,14 @@
+.p-datepicker{
+  padding: 0px !important;
+}
+.p-datepicker-header{
+  padding: 0px !important;
+
+}
+.custom-calendar .p-inputtext {
+    border-radius: 5px !important;
+    height: 38px !important;
+  }
+  /* table thead {
+    background-color: lightgray;
+  } */

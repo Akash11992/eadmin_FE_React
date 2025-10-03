@@ -1,0 +1,28 @@
+@media only screen and (max-width: 428px) {
+    #conveyance_table_div {
+        display: none !important;
+    }
+}
+
+@media only screen and (min-width: 429px) and (max-width: 768px) {}
+
+@media only screen and (min-width: 768px) and (max-width: 1180px) {
+    #conveyance_table_div {
+        display: none !important;
+    }
+
+    #conveyanceMobile__div {
+        width: 100% !important;
+    }
+}
+
+@media only screen and (min-width: 1181px) and (max-width: 1440px) {
+    .ConveyanceMobileView_div {
+        display: none !important;
+    }
+}
+@media only screen and (min-width: 1440px) {
+    .ConveyanceMobileView_div {
+        display: none !important;
+    }
+}

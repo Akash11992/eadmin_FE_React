@@ -1,0 +1,87 @@
+@media only screen and (max-width: 428px) {
+    .main_row {
+        margin-top: 10px !important;
+    }
+
+    .to_date {
+        margin-top: 10px !important;
+    }
+
+    .petty_cash_status {
+        margin-top: 10px !important;
+    }
+
+    .voucher_type {
+        margin-top: 10px !important;
+    }
+}
+
+@media only screen and (min-width: 429px) and (max-width: 768px) {
+    .main_row {
+        margin-top: 10px !important;
+    }
+
+    .from_date {
+        width: 34% !important;
+    }
+
+    .to_date {
+        width: 34% !important;
+    }
+
+    .petty_cash_status {
+        width: auto !important;
+    }
+
+    .voucher_type {
+        margin-top: 10px !important;
+        width: auto !important;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1180px) {
+    .main_row {
+        margin-top: 10px !important;
+    }
+
+    .from_date {
+        width: auto !important;
+    }
+
+    .to_date {
+        width: auto !important;
+    }
+
+    .petty_cash_status {
+        width: auto !important;
+    }
+
+    .voucher_type {
+        margin-top: 10px !important;
+        width: auto !important;
+    }
+    #voucher_type_div{
+        width:30% !important
+    }
+}
+
+@media only screen and (min-width: 1181px) {
+    .main_row {
+        margin-top: 10px !important;
+    }
+
+    .from_date {
+        width: auto !important;
+    }
+
+    .to_date {
+        width: auto !important;
+    }
+
+    .petty_cash_status {
+        width: auto !important;
+    }
+
+    .voucher_type {
+        width: auto !important;
+    }
+}

@@ -1,0 +1,12 @@
+.p-component{
+    width: 100% !important;
+}
+.p-accordion-header-text{
+    color:black !important
+}
+.p-accordion-header-link {
+    text-decoration: none !important;
+}
+.p-icon{
+    color:black !important
+}
